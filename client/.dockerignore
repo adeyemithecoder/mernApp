@@ -5,5 +5,4 @@ Dockerfile
 .git
 .gitignore
 .env
-coverage
 dist

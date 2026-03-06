@@ -279,6 +279,8 @@ docker compose version
 
 sudo dnf install -y git
 
+git clone https://github.com/adeyemithecoder/mernApp.git myapp
+
 PORT=5000
 NODE_ENV=production
 MONGODB_URI=ADD_URI_HERE
@@ -323,4 +325,4 @@ echo "After re-login, test with:"
 echo "docker run hello-world"
 
 chmod +x install_docker_amazon.sh
-chmod +x install_docker_amazon.sh
+./install_docker_amazon.sh
